@@ -64,8 +64,8 @@ body {
   grid-template-rows: repeat(5, 6rem);
   grid-template-areas:
     'somar subtrair multiplicar dividir'
-    'sete oito nove .'
-    'quatro cinco seis .'
+    'sete oito nove salvar'
+    'quatro cinco seis recuperar'
     'um dois tres limpar'
     'zero decimal apagar igual';
 }
@@ -138,6 +138,14 @@ body {
 
 .limpar {
   grid-area: limpar;
+}
+
+.salvar {
+  grid-area: salvar;
+}
+
+.recuperar {
+  grid-area: recuperar;
 }
 
 .apagar {
