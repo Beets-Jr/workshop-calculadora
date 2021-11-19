@@ -67,7 +67,7 @@ body {
     'sete oito nove salvar'
     'quatro cinco seis recuperar'
     'um dois tres limpar'
-    'zero decimal apagar igual';
+    'zero decimal zero-duplo igual';
 }
 
 .teclas > button {
@@ -76,19 +76,19 @@ body {
   cursor: pointer;
 }
 
-.somar {
+[data-tecla='somar'] {
   grid-area: somar;
 }
 
-.subtrair {
+[data-tecla='subtrair'] {
   grid-area: subtrair;
 }
 
-.multiplicar {
+[data-tecla='multiplicar'] {
   grid-area: multiplicar;
 }
 
-.dividir {
+[data-tecla='dividir'] {
   grid-area: dividir;
 }
 
@@ -136,31 +136,31 @@ body {
   grid-area: decimal;
 }
 
-.limpar {
+[data-tecla='limpar'] {
   grid-area: limpar;
 }
 
-.salvar {
+[data-tecla='salvar'] {
   grid-area: salvar;
 }
 
-.recuperar {
+[data-tecla='recuperar'] {
   grid-area: recuperar;
 }
 
-.apagar {
-  grid-area: apagar;
+.zero-duplo {
+  grid-area: zero-duplo;
 }
 
-.igual {
+[data-tecla='igual'] {
   grid-area: igual;
 }
 
-.operador {
+[data-tipo-tecla='operador'] {
   background-color: var(--cor-fundo-operador-escuro);
 }
 
-.numero {
+[data-tipo-tecla='numero'] {
   background-color: var(--cor-fundo-numero-escuro);
   color: var(--cor-numero-escuro);
 }
